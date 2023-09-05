@@ -1,0 +1,17 @@
+body {
+	background-color: black;
+}
+
+header {
+	color: orange;
+	font-family: monospace;
+	text-align: center;
+	font-size: large;
+}
+
+main {
+	color: white;
+	font-family: monospace;
+	text-align: center;
+	font-size: x-large;
+}
