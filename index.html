@@ -13,14 +13,10 @@
 
 	<main>
 		<h3 class='main_text'>
-		(define dot (circle 50 "solid" "red"))
-
-(define background (rectangle 300 200 "outline" "black"))
-
-(put-image dot 0 0 background)
-(put-image dot 0 100 background)
-(put-image dot 300 200 background)
-(put-image dot 150 200 background)
+		(define (quad x y)
+  (if (> x 0) (if (< y 0) "4" "1") (if (> y 0) "2" "3") 
+      )
+  )
 		</h3>
 	</main>	
 
